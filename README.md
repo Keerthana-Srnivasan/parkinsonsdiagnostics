@@ -1,1 +1,5 @@
 # parkinsonsdiagnostics
+
+Parkinson’s Disease is an increasingly prevalent issue in today's society. Of the 7 million plus people who suffer from this disease, around 75-90 percent of them will develop speech difficulties (known as dysarthria). This is due to the fact that Parkinson’s Disease affects the nerves and muscles associated with speaking such as the larynx, the throat, and respiratory muscles. Diagnosis through the analysis of speech could aid in the detection and treatment of the disease. 
+
+This is the code for a handheld portable audio recorder that is used to diagnose individuals with Parkinson's Disease. The recorder will record the patient's voice using an electret condenser microphone with an amplifier system. It will then use an analog to digital converter module to convert the analog output into digital output for the Raspberry Pi to process. Data collected in real time from the microphone is processed as a wav file and inputted into a surrogate model. Based on training data we collect and preprocess from the UC Irvine Machine Learning database, the ML model will determine if the patient does or doesn’t have Parkinson's Disease.
